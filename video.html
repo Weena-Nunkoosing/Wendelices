@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Video Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #fcc9cb, #ffffff);
+            color: #333;
+        }
+        header {
+            background-color: #215666;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+        }
+        .video-box {
+            width: 80%;
+            max-width: 800px;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        .description {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .cta-button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #fcc9cb;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #215666;
+            color: white;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Discover Stunning Videos</header>
+
+    <div class="video-container">
+        <div class="video-box">
+            <video controls>
+                <source src="./video cake animation updated.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <p class="description">
+            Immerse yourself in captivating stories and stunning visuals. Watch our latest featured video now.
+        </p>
+
+        <button class="cta-button"> <a href="./explore_more_video.html">Explore More Videos</a></button>
+        
+    </div>
+
+    <footer>
+        &copy; 2025 Wendelices | All Rights Reserved
+    </footer>
+</body>
+</html>
+
